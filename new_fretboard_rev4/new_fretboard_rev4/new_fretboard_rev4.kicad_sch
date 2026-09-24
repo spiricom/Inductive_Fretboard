@@ -4390,14 +4390,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "680PF"
 			(at 200.152 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
@@ -4787,7 +4786,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "6.8nF"
 			(at 53.848 184.912 0)
 			(effects
 				(font
@@ -5286,7 +5285,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "470nF"
 			(at 124.968 102.108 0)
 			(effects
 				(font
@@ -5815,7 +5814,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10R"
 			(at 184.15 203.2 0)
 			(effects
 				(font
@@ -6232,7 +6231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "1uF"
 			(at 140.208 102.362 0)
 			(effects
 				(font
@@ -6882,7 +6881,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10k"
 			(at 96.52 75.692 0)
 			(effects
 				(font
@@ -7441,7 +7440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "100nF"
 			(at 155.702 213.868 0)
 			(effects
 				(font
@@ -7908,7 +7907,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "6.8nF"
 			(at 76.708 184.912 0)
 			(effects
 				(font
@@ -8345,7 +8344,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "100nF"
 			(at 89.408 102.362 0)
 			(effects
 				(font
@@ -9388,7 +9387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "6.8nF"
 			(at 56.388 89.662 0)
 			(effects
 				(font
@@ -9825,7 +9824,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "680PF"
 			(at 197.612 177.038 0)
 			(effects
 				(font
@@ -10222,7 +10221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "6.8nF"
 			(at 79.248 89.662 0)
 			(effects
 				(font
@@ -10659,7 +10658,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "4.7R"
 			(at 96.52 201.93 0)
 			(effects
 				(font
@@ -11148,7 +11147,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "10pF"
 			(at 189.992 86.868 0)
 			(effects
 				(font
@@ -11615,7 +11614,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10R"
 			(at 184.15 33.782 0)
 			(effects
 				(font
@@ -12094,7 +12093,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "100nF"
 			(at 158.242 118.618 0)
 			(effects
 				(font
@@ -12686,7 +12685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10R"
 			(at 186.69 107.95 0)
 			(effects
 				(font
@@ -13166,7 +13165,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "1000pF"
 			(at 114.808 102.108 0)
 			(effects
 				(font
@@ -13553,7 +13552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10R"
 			(at 181.61 129.032 0)
 			(effects
 				(font
@@ -14573,7 +14572,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "680PF"
 			(at 197.612 171.958 0)
 			(effects
 				(font
@@ -14970,7 +14969,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "4.7R"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -15397,7 +15396,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "221R"
 			(at 60.96 189.23 0)
 			(effects
 				(font
@@ -15814,14 +15813,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "10pF"
 			(at 187.452 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
@@ -16452,7 +16450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "1000pF"
 			(at 112.268 197.358 0)
 			(effects
 				(font
@@ -16839,7 +16837,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "221R"
 			(at 63.5 93.98 0)
 			(effects
 				(font
@@ -17442,7 +17440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10k"
 			(at 93.98 170.942 0)
 			(effects
 				(font
@@ -18515,7 +18513,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10R"
 			(at 184.15 193.04 0)
 			(effects
 				(font
@@ -18932,7 +18930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "470nF"
 			(at 122.428 197.358 0)
 			(effects
 				(font
@@ -19600,14 +19598,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10R"
 			(at 186.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_4ms_Resistor:R_0603"
@@ -20017,7 +20014,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10k"
 			(at 86.36 75.692 0)
 			(effects
 				(font
@@ -20576,7 +20573,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "1uF"
 			(at 137.668 197.612 0)
 			(effects
 				(font
@@ -21164,7 +21161,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "100nF"
 			(at 86.868 197.612 0)
 			(effects
 				(font
@@ -21631,7 +21628,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "10pF"
 			(at 184.912 204.978 0)
 			(effects
 				(font
@@ -22269,7 +22266,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "10k"
 			(at 83.82 170.942 0)
 			(effects
 				(font
@@ -22766,7 +22763,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "10pF"
 			(at 187.452 182.118 0)
 			(effects
 				(font
@@ -23295,14 +23292,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Capacitor NP"
+		(property "Value" "680PF"
 			(at 200.152 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
