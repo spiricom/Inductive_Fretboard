@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
         0.3
       ],
       "tuning_pattern_settings": {
@@ -469,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "new_fretboard_rev3.kicad_pro",
+    "filename": "new_fretboard_rev4.kicad_pro",
     "version": 3
   },
   "net_settings": {
