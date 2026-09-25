@@ -5,6 +5,310 @@
 	(uuid "062b6a63-9b0e-4b50-a092-8a295e1a81a1")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCHP-CDB:root_0_LX3302AQPW_TSSOP-14_MCHP-CDB.DbLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1353,316 +1657,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_4ms_Connector:Conn_01x06"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "4ms_Connector:Pins_1x06_2.54mm_TH_SWD"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "HEADER 1x6 MALE PINS 0.100” 180deg"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Specifications" "HEADER 1x6 MALE PINS 0.100” 180deg"
-				(at -1.905 -15.875 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "TAD"
-				(at -2.54 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "1-0601FBV0T"
-				(at -1.905 -14.605 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "Conn_01x06"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x06_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "l1-altium-import:GND1_POWER_GROUND"
 			(power global)
 			(exclude_from_sim no)
@@ -1949,17 +1943,6 @@
 		)
 		(uuid "0655e4ae-8eaa-47c7-bf5f-4907332d24b1")
 	)
-	(text "IOIN"
-		(exclude_from_sim no)
-		(at 37.846 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1816fd39-3c83-45f2-967c-a4e23b1acd4b")
-	)
 	(text "AOUT"
 		(exclude_from_sim no)
 		(at 40.386 55.88 0)
@@ -1970,17 +1953,6 @@
 			(justify left bottom)
 		)
 		(uuid "1b6ae704-7d93-451c-975d-f5817ba0609b")
-	)
-	(text "IOIN"
-		(exclude_from_sim no)
-		(at 40.386 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c3844cc-fa32-404b-9780-c1fa77202ade")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -2370,16 +2342,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 69.85) (xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a4080a-2199-4918-a34a-579b6c141bb9")
-	)
-	(wire
-		(pts
 			(xy 55.88 59.69) (xy 52.07 59.69)
 		)
 		(stroke
@@ -2610,16 +2572,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 168.91) (xy 143.51 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "286086a9-a6b2-4dd1-824a-ef22067812fb")
-	)
-	(wire
-		(pts
 			(xy 182.88 189.23) (xy 180.34 189.23)
 		)
 		(stroke
@@ -2817,16 +2769,6 @@
 			(type default)
 		)
 		(uuid "42457dc5-1ce2-43a7-bfd9-03d85735d09b")
-	)
-	(wire
-		(pts
-			(xy 53.34 62.23) (xy 52.07 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46dad046-f48e-4cff-952f-329ecde417a9")
 	)
 	(wire
 		(pts
@@ -3050,16 +2992,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 168.91) (xy 143.51 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66782ce4-0ecd-4ee4-b021-f408a800acf0")
-	)
-	(wire
-		(pts
 			(xy 52.07 57.15) (xy 58.42 57.15)
 		)
 		(stroke
@@ -3067,16 +2999,6 @@
 			(type default)
 		)
 		(uuid "675bfaf4-7318-4336-9476-ee672dde1efa")
-	)
-	(wire
-		(pts
-			(xy 146.05 73.66) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b7a548-b358-4b87-8967-aabf52ae2a47")
 	)
 	(wire
 		(pts
@@ -3460,26 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 165.1) (xy 50.8 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0303424-34a5-4203-9494-d51c94f56f02")
-	)
-	(wire
-		(pts
-			(xy 50.8 157.48) (xy 49.53 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08873a0-f5b7-4c72-8c14-0dab0b5610c9")
-	)
-	(wire
-		(pts
 			(xy 63.5 54.61) (xy 52.07 54.61)
 		)
 		(stroke
@@ -3637,16 +3539,6 @@
 			(type default)
 		)
 		(uuid "b91ae738-f234-497b-ab5c-c7deca3680df")
-	)
-	(wire
-		(pts
-			(xy 149.86 73.66) (xy 146.05 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bade4bb6-39ad-4bea-91ab-67f51a239b7a")
 	)
 	(wire
 		(pts
@@ -3900,16 +3792,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 69.85) (xy 53.34 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8d227a8-ffe0-4504-847d-7191e0213f19")
-	)
-	(wire
-		(pts
 			(xy 195.58 207.01) (xy 220.98 207.01)
 		)
 		(stroke
@@ -4090,16 +3972,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 165.1) (xy 50.8 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70785b0-e815-456e-a38e-722eb0604db5")
-	)
-	(wire
-		(pts
 			(xy 185.42 104.14) (xy 182.88 104.14)
 		)
 		(stroke
@@ -4247,16 +4119,6 @@
 			(justify left bottom)
 		)
 		(uuid "4761b68d-0a44-4c7a-bd2d-8d7391437e2b")
-	)
-	(label "IO4_B"
-		(at 137.16 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4928d1a4-6fae-46e1-9202-89d04b196b89")
 	)
 	(label "IO2_B_FILT"
 		(at 55.88 179.07 90)
@@ -4448,16 +4310,6 @@
 		)
 		(uuid "cad3a280-80de-4e27-81ea-7fc28fd6a2fe")
 	)
-	(label "IO4_A"
-		(at 139.7 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbf070a3-6877-4a8c-9e60-ee3dd9b2dd88")
-	)
 	(label "VIN1_A"
 		(at 90.17 76.2 0)
 		(effects
@@ -4569,7 +4421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "006e32cd-d94c-458c-adfc-c67f959ab9c6")
-		(property "Reference" "C1"
+		(property "Reference" "C21"
 			(at 200.66 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,8 +4877,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C21")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -5055,7 +4911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05dc8dd5-0f5d-4d8f-aadc-3657f4bbcf7b")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 198.12 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5512,8 +5368,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C19")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -6119,8 +5979,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -6205,8 +6069,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -6235,7 +6103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0def61fd-4980-4c32-a0d3-b617bc4d69df")
-		(property "Reference" "C18"
+		(property "Reference" "C13"
 			(at 159.766 213.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6776,8 +6644,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C13")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -6806,7 +6678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e3f4f7f-4bc5-46f1-9976-7f78359b3539")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 194.31 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7347,8 +7219,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C17")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -7377,7 +7253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e469857-d39e-4c33-927a-15f1cd508327")
-		(property "Reference" "C15"
+		(property "Reference" "C7"
 			(at 116.332 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,8 +7698,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C7")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -7908,8 +7788,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -7928,8 +7812,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x06")
-		(at 46.99 57.15 180)
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 46.99 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7939,8 +7823,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ed1a4a0-2ecd-42f4-848c-c43781f8a159")
-		(property "Reference" "J1"
-			(at 46.99 43.18 0)
+		(property "Reference" "J2"
+			(at 47.625 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7949,8 +7833,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 46.99 45.72 0)
+		(property "Value" "Conn_01x05"
+			(at 47.625 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7959,8 +7843,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 46.99 39.37 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,7 +7855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 55.88 0)
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7981,8 +7865,8 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 1x6 MALE PINS 0.100” 180deg"
-			(at 46.99 57.15 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 46.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,8 +7876,8 @@
 				)
 			)
 		)
-		(property "Specifications" "HEADER 1x6 MALE PINS 0.100” 180deg"
-			(at 48.895 41.275 0)
+		(property "Specifications" "HEADER 1x5 MALE PINS 0.100” 180deg"
+			(at 45.085 70.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8005,7 +7889,7 @@
 			)
 		)
 		(property "Manufacturer" "TAD"
-			(at 49.53 44.45 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8017,7 +7901,7 @@
 			)
 		)
 		(property "Part Number" "1-0601FBV0T"
-			(at 48.895 42.545 0)
+			(at 45.085 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,9 +7918,6 @@
 		(pin "1"
 			(uuid "74ba34a3-5551-4cb5-baad-8c58240d8a7d")
 		)
-		(pin "6"
-			(uuid "03fc492f-6dc8-41b7-af22-24dbb4584089")
-		)
 		(pin "5"
 			(uuid "2f4efcc2-a80b-4989-872c-11e6b65cfa24")
 		)
@@ -8048,8 +7929,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "J2")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -8078,7 +7963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2243eecb-e1fc-4bee-8d39-03acb308eba2")
-		(property "Reference" "L6"
+		(property "Reference" "L3"
 			(at 189.23 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,8 +8110,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L3")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L303")
 					(unit 1)
 				)
 			)
@@ -8255,7 +8144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2331d4bd-138a-4a00-a167-fe124ea8cbc8")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 187.833 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,8 +8625,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R312")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a77994d-6b89-460d-a1d3-59089f401e0e")
-		(property "Reference" "C13"
+		(property "Reference" "C3"
 			(at 79.502 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9271,8 +9164,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -9301,7 +9198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c7f486a-28c1-4ebb-a0c1-a585328b1b5f")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 102.743 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9794,8 +9691,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -9824,7 +9725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f46a983-d66d-49c1-b981-56f8db04c280")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 152.4 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,8 +10148,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "U1")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f4b6bcf-842b-45c3-8d3c-c407bb3dbfe1")
-		(property "Reference" "C3"
+		(property "Reference" "C8"
 			(at 118.872 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,8 +10627,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C8")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -10752,7 +10661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3adb0e07-ef8b-4f5a-9190-9bcf3ad0b938")
-		(property "Reference" "L5"
+		(property "Reference" "L1"
 			(at 179.07 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10899,8 +10808,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L1")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -10985,8 +10898,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -11015,7 +10932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e641ded-5c67-4196-913a-d86bf0fc540c")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 49.53 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11520,8 +11437,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C1")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -11550,7 +11471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "412d275f-bf55-41f3-a8e8-ed9fe10d0f1a")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 195.58 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12030,8 +11951,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R313")
 					(unit 1)
 				)
 			)
@@ -12116,8 +12041,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -12136,8 +12065,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x06")
-		(at 44.45 152.4 180)
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 44.45 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12147,8 +12076,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460db022-97e6-4364-ad78-6bda9653e637")
-		(property "Reference" "J2"
-			(at 44.45 138.43 0)
+		(property "Reference" "J1"
+			(at 45.085 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12158,7 +12087,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 44.45 140.97 0)
+			(at 45.085 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12167,8 +12096,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 44.45 134.62 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 44.45 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12179,7 +12108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 151.13 0)
+			(at 44.45 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,8 +12118,8 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 1x6 MALE PINS 0.100” 180deg"
-			(at 44.45 152.4 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 44.45 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12200,8 +12129,8 @@
 				)
 			)
 		)
-		(property "Specifications" "HEADER 1x6 MALE PINS 0.100” 180deg"
-			(at 46.355 136.525 0)
+		(property "Specifications" "HEADER 1x5 MALE PINS 0.100” 180deg"
+			(at 42.545 165.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12213,7 +12142,7 @@
 			)
 		)
 		(property "Manufacturer" "TAD"
-			(at 46.99 139.7 0)
+			(at 41.91 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12225,7 +12154,7 @@
 			)
 		)
 		(property "Part Number" "1-0601FBV0T"
-			(at 46.355 137.795 0)
+			(at 42.545 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12245,9 +12174,6 @@
 		(pin "1"
 			(uuid "ce8aff4f-33d5-4582-b1d9-9074204f27ee")
 		)
-		(pin "6"
-			(uuid "c0e7f820-fc9d-48a1-a6d7-b31e8fe89aa7")
-		)
 		(pin "4"
 			(uuid "57546083-a7ad-4d7c-9ec7-e8c77bc821b7")
 		)
@@ -12256,8 +12182,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "J1")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -12286,7 +12216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f2bf3c2-f404-4804-ab10-b9a3eb00fdaa")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 154.94 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12709,8 +12639,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "U2")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -12739,7 +12673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e71d378-0c26-42b7-88d1-1abcc00c55af")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 52.07 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13244,8 +13178,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -13274,7 +13212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f9cec31-08ea-42f8-b10f-8b6b84460c9e")
-		(property "Reference" "L2"
+		(property "Reference" "L4"
 			(at 191.77 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13421,8 +13359,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L4")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L304")
 					(unit 1)
 				)
 			)
@@ -13451,7 +13393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "696ceb97-c2dc-46a7-a247-660c480cd264")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 86.36 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14028,8 +13970,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -14058,7 +14004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69c6c651-0420-4f64-95b6-68beaf3387ee")
-		(property "Reference" "C16"
+		(property "Reference" "C9"
 			(at 127.762 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,8 +14545,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C9")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -14686,8 +14636,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -14716,7 +14670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74a44bc3-daff-4a81-9dc9-08a5aa15f258")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 181.61 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14863,8 +14817,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L2")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L302")
 					(unit 1)
 				)
 			)
@@ -14950,8 +14908,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -14980,7 +14942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79ee3fc3-2555-4d26-85ec-55496955d3a4")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 99.06 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15557,8 +15519,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -15587,7 +15553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb16d58-6e9c-49aa-8794-c6a183a93e81")
-		(property "Reference" "L4"
+		(property "Reference" "L8"
 			(at 214.63 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15734,8 +15700,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L8")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L308")
 					(unit 1)
 				)
 			)
@@ -15764,7 +15734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "816a32ed-2907-411b-afc4-9ed8c543127a")
-		(property "Reference" "C7"
+		(property "Reference" "C18"
 			(at 196.85 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16305,8 +16275,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C18")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -16335,7 +16309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "877b1b55-58c9-48f4-b280-e5987c4bb95f")
-		(property "Reference" "L8"
+		(property "Reference" "L6"
 			(at 212.09 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16482,8 +16456,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L6")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L306")
 					(unit 1)
 				)
 			)
@@ -16512,7 +16490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "884602f6-3238-4a66-a128-80f54438dec2")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 162.306 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17053,8 +17031,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C14")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -17083,7 +17065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "905728c5-cef6-4359-82cf-5135b4504de3")
-		(property "Reference" "L3"
+		(property "Reference" "L7"
 			(at 213.36 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17230,8 +17212,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L7")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L307")
 					(unit 1)
 				)
 			)
@@ -17260,7 +17246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "959d989f-ff30-4930-8666-46106da7b85a")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 141.732 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17705,8 +17691,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C11")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -17791,8 +17781,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -17821,7 +17815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a990ca55-e803-48f4-aaaf-6680fb8c6c7a")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 190.373 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18302,8 +18296,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R314")
 					(unit 1)
 				)
 			)
@@ -18332,7 +18330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab8e17f6-5113-487e-ba33-8e11cc998dbc")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 198.12 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18789,8 +18787,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C20")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -18819,7 +18821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad5de48d-7943-427b-86c8-f0cbcace0b1d")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 64.262 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19300,8 +19302,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -19386,8 +19392,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -19416,7 +19426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6de68c7-c258-4091-810b-67b4ea242fe3")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 96.52 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19993,8 +20003,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -20023,7 +20037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b89d633a-3ddf-470d-af9a-7f70353c2896")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 93.472 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20564,8 +20578,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -20594,7 +20612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd6fedac-37be-42b1-b49f-7f18746750ea")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 130.302 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21135,8 +21153,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C10")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -21165,7 +21187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0bdeb93-cdbf-4a6a-9d39-ae1d86ecc1f4")
-		(property "Reference" "C2"
+		(property "Reference" "C22"
 			(at 200.66 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21621,8 +21643,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C22")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C322")
 					(unit 1)
 				)
 			)
@@ -21651,7 +21677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ce8da2-64e5-4dce-a786-6de1fe0e34f6")
-		(property "Reference" "C19"
+		(property "Reference" "C15"
 			(at 191.77 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22192,8 +22218,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C15")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -22278,8 +22308,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -22308,7 +22342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caabeec6-8508-4274-8944-56a0851a788b")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 193.04 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22789,8 +22823,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R311")
 					(unit 1)
 				)
 			)
@@ -22819,7 +22857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccef1b1f-61e9-4110-af12-accc10c6c5eb")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 100.203 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23312,8 +23350,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -23342,7 +23384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce2f738b-4abb-40b0-9b94-16e3777d95b7")
-		(property "Reference" "L7"
+		(property "Reference" "L5"
 			(at 210.82 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23489,8 +23531,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "L5")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "L305")
 					(unit 1)
 				)
 			)
@@ -23519,7 +23565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d66e6bab-82c0-42c6-94d4-3e9dbe0757d5")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 61.722 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24000,8 +24046,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -24030,7 +24080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d782a6fd-a0b0-4006-b1b2-e050480b752b")
-		(property "Reference" "C9"
+		(property "Reference" "C16"
 			(at 194.31 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24570,8 +24620,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C16")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -24656,8 +24710,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -24742,8 +24800,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -24772,7 +24834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5fd5dc5-40bb-488a-b19e-c6211a022c82")
-		(property "Reference" "C11"
+		(property "Reference" "C4"
 			(at 83.312 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25277,8 +25339,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -25307,7 +25373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e82bf911-585f-433a-aa13-ff2c7a844977")
-		(property "Reference" "C14"
+		(property "Reference" "C5"
 			(at 92.202 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25848,8 +25914,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -25878,7 +25948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2c5a003-cf1e-4edc-8d17-bf7decc02ca8")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 184.15 134.747 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26359,8 +26429,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -26389,7 +26463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4dad0ea-cffe-4221-818c-2da3a832af92")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 144.272 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26834,8 +26908,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "C12")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -26864,7 +26942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f65a7fcb-997b-4e85-850b-261c890b29da")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 186.69 39.497 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27345,8 +27423,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -27431,8 +27513,12 @@
 		)
 		(instances
 			(project "new_fretboard_rev6"
-				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/e538c114-1390-407a-9675-b41526ec2de1"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/b216f243-d852-4549-86f1-6812c8642313"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888/d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3"
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -27450,10 +27536,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

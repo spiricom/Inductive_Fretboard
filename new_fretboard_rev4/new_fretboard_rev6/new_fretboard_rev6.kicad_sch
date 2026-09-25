@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 54.61 27.94)
-		(size 25.4 17.78)
+		(at 29.21 27.94)
+		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "e538c114-1390-407a-9675-b41526ec2de1")
+		(uuid "b216f243-d852-4549-86f1-6812c8642313")
 		(property "Sheetname" "ch1"
-			(at 54.61 27.2284 0)
+			(at 29.21 27.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "../new_fretboard_rev4/new_fretboard_rev4.kicad_sch"
-			(at 54.61 46.3046 0)
+			(at 29.21 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,6 +47,52 @@
 			(project "new_fretboard_rev6"
 				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 25.4)
+		(size 31.75 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d81dbdcc-6717-4204-aeca-4e4d7aa8f7e3")
+		(property "Sheetname" "ch2"
+			(at 99.06 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../new_fretboard_rev4/new_fretboard_rev4.kicad_sch"
+			(at 99.06 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "new_fretboard_rev6"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888"
+					(page "3")
 				)
 			)
 		)
