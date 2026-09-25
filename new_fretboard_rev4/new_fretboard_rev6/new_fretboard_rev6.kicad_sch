@@ -6,6 +6,144 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 99.06 59.69)
+		(size 26.67 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c82e5ae-0637-4409-b9e0-a359e6955a8d")
+		(property "Sheetname" "ch5"
+			(at 99.06 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../new_fretboard_rev4/new_fretboard_rev4.kicad_sch"
+			(at 99.06 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "new_fretboard_rev6"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 59.69)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8839fb32-55c9-4c8f-aeb7-879001525133")
+		(property "Sheetname" "ch4"
+			(at 29.21 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../new_fretboard_rev4/new_fretboard_rev4.kicad_sch"
+			(at 29.21 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "new_fretboard_rev6"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 25.4)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9f872489-18c0-4951-b181-aa02cd021ee4")
+		(property "Sheetname" "ch3"
+			(at 158.75 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../new_fretboard_rev4/new_fretboard_rev4.kicad_sch"
+			(at 158.75 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "new_fretboard_rev6"
+				(path "/0062b2a7-78dc-4b3a-83d1-c8e3134dc888"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.21 27.94)
 		(size 22.86 13.97)
 		(exclude_from_sim no)
