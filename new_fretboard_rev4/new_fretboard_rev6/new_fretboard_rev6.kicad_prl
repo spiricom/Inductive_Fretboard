@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 3,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -48,9 +48,11 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes"
+      "shapes",
+      "board_outline_area",
+      "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_55555584",
     "zone_display_mode": 0
   },
   "git": {
@@ -60,7 +62,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "new_fretboard_rev4.kicad_prl",
+    "filename": "new_fretboard_rev6.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -146,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -158,10 +152,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -209,11 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.127,
-        0.3
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -240,16 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.4064,
-          "drill": 0.2032
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -508,14 +489,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "new_fretboard_rev4.kicad_pro",
+    "filename": "new_fretboard_rev5.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -526,10 +507,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -675,18 +656,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "new_fretboard_rev4.kicad_sch",
-        "name": "new_fretboard_rev4",
-        "uuid": "062b6a63-9b0e-4b50-a092-8a295e1a81a1"
+        "filename": "new_fretboard_rev5.kicad_sch",
+        "name": "new_fretboard_rev5",
+        "uuid": "7947d9a6-297c-4237-9c69-e9b2981b354a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,L1-8,J1-2,R1-14,C1-22",
     "variants": []
   },
   "sheets": [
     [
-      "062b6a63-9b0e-4b50-a092-8a295e1a81a1",
-      "new_fretboard_rev4"
+      "7947d9a6-297c-4237-9c69-e9b2981b354a",
+      "new_fretboard_rev5"
+    ],
+    [
+      "53bd13a3-59e6-4c28-b7bc-be6b030dfce2",
+      "CH1"
     ]
   ],
   "text_variables": {},
