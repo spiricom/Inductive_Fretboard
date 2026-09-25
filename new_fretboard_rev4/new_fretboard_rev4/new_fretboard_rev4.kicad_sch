@@ -4410,7 +4410,7 @@
 		)
 		(uuid "f85ecc72-c659-4f25-99d4-a76bfee8933f")
 	)
-	(hierarchical_label "VIN_IN"
+	(hierarchical_label "VIN_IN_A"
 		(shape input)
 		(at 60.96 52.07 0)
 		(effects
@@ -4421,8 +4421,19 @@
 		)
 		(uuid "28e00b51-80c7-4141-9200-21b3126f7949")
 	)
-	(hierarchical_label "SENTOUT_OUT"
+	(hierarchical_label "SENTOUT_OUT_B"
 		(shape input)
+		(at 55.88 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33e12341-c06b-4770-ac41-d193878da018")
+	)
+	(hierarchical_label "SENTOUT_OUT_A"
+		(shape output)
 		(at 58.42 57.15 0)
 		(effects
 			(font
@@ -4431,6 +4442,17 @@
 			(justify left)
 		)
 		(uuid "3bcfcb34-bfcd-4c17-b69b-a0df1e35c2ef")
+	)
+	(hierarchical_label "VIN_IN_B"
+		(shape input)
+		(at 58.42 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6df5fcbd-455b-437d-9042-ba0dee8f8c23")
 	)
 	(symbol
 		(lib_id "MCHP-CDB:root_2_Capacitor NP_MCHP-CDB.DbLib_0")
