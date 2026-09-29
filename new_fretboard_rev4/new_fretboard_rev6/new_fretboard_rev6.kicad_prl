@@ -20,10 +20,10 @@
       "dimensions": false,
       "footprints": true,
       "graphics": false,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
-      "pads": false,
+      "pads": true,
       "text": false,
       "tracks": true,
       "vias": true,
@@ -52,7 +52,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000200_00000001",
+    "visible_layers": "00000000_00000000_00002200_80000055",
     "zone_display_mode": 0
   },
   "git": {
